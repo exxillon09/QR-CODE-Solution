@@ -1,0 +1,41 @@
+/* Общие стили */
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  /* Контейнер */
+  .container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  /* Изображение QR-кода */
+  .img img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Заголовок */
+  .text-up h1 {
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+  /* Текст под заголовком */
+  .text-under p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 20px;
+  }
